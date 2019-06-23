@@ -1,4 +1,4 @@
-navigator.serviceWorker.register('/~m26416041/movie/sw.js');
+navigator.serviceWorker.register('/sw.js');
 
 var deferredPrompt;
 window.addEventListener('beforeinstallprompt', function(event) {

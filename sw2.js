@@ -8,12 +8,12 @@ self.addEventListener('install', function (event) {
       .then(function (cache) {
         console.log('[Service Worker] Precaching App Shell');
         cache.addAll([
-           '/~m26416041/movie/',
-          '/~m26416041/movie/index.html',
-          '/~m26416041/movie/details.html',
-          '/~m26416041/movie/offline.html',
-          '/~m26416041/movie/styles.css',
-          '/~m26416041/movie/src/js/app.js',
+           '/',
+          '/index.html',
+          '/details.html',
+          '/offline.html',
+          '/styles.css',
+          '/src/js/app.js',
           'https://code.jquery.com/jquery-3.3.1.slim.min.js',
           'https://fonts.googleapis.com/icon?family=Material+Icons',
           'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en'
@@ -76,7 +76,7 @@ self.addEventListener('fetch', function(event) {
                 })
       })
       .catch(function(err) {
-       return caches.match('/~m26416041/movie/offline.html');
+       return caches.match('/offline.html');
       })
   );
 });
