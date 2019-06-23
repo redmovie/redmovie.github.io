@@ -1,0 +1,25 @@
+{
+  "name": "RED Movie",
+  "short_name": "RED Movie",
+  "icons": [
+    {
+      "src": "images/washbear-logo-01-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/Icon_Bird_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/~m26416041/movie/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#3f51b5",
+  "description": "A simple Instagram Clone, implementing a lot of PWA love.",
+  "dir": "ltr",
+  "lang": "en-US"
+}
